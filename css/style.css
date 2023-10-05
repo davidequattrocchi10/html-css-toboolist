@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+:root{
+    --color-primary:rgb(0, 187, 255);
+    --color-secondary:violet;
+    --color-third:green;
+    --color-fourth:pink;
+    --color-fifth: orange;
+    --color-sixth: rgb(185, 237, 95);
+}
+
+header{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.logo_image{
+    width: 3rem;
+    height: 3rem;
+    vertical-align: bottom;
+}
+
+.text{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+main{
+
+}
+
+footer{
+
+}
