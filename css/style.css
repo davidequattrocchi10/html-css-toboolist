@@ -12,11 +12,13 @@
     --color-fourth:pink;
     --color-fifth: orange;
     --color-sixth: rgb(185, 237, 95);
+    --color-seventh: rgba(248, 248, 248, 0.941);
 }
 
 header{
     margin-top: 2rem;
     margin-left: 2rem;
+    padding: 2rem;
 }
 
 .logo_image{
@@ -30,9 +32,45 @@ header{
     font-family: sans-serif;
     font-weight: bold;
 }
+button{
+    display: inline;
+    text-align: center;
+    margin: 0.5rem;
 
-main{
+}
 
+.container{
+    border-top: 3rem solid var(--color-seventh);
+    border-right: 8rem solid var(--color-seventh);
+    border-left: 8rem solid var(--color-seventh);
+    border-bottom: 4rem solid var(--color-seventh);
+    background-color: white;
+    
+}
+.under_container1{
+    padding-left: 3rem;
+}
+
+.color_button1{
+    background-color: var(--color-primary);
+    color: white;
+    border:var(--color-primary);
+    padding: 0.5rem;
+    border-radius: 9px;
+
+}
+
+.color_button2{
+    background-color: white;
+    color: rgba(196, 196, 196, 0.941);
+    border: 2px solid rgba(196, 196, 196, 0.941);
+    padding: 0.5rem;
+    border-radius: 9px;
+    
+}
+
+.under_container2{
+    padding-left: 3rem;
 }
 
 footer{
