@@ -17,8 +17,6 @@
 }
 
 header{
-    margin-top: 2rem;
-    margin-left: 2rem;
     padding: 2rem;
 }
 
@@ -80,6 +78,9 @@ hr {
     padding-left: 3rem;
     margin-top: 2rem;
 }
+h2{
+    margin-top: 1rem;
+}
 
 .indicator{
     font-size: small;
@@ -89,6 +90,10 @@ hr {
 .line{
     display: inline-block;
     margin-top: 3px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .check {
