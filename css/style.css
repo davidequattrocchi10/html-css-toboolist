@@ -7,13 +7,10 @@
 
 :root{
     --color-primary:rgb(0, 187, 255);
-    --color-secondary:violet;
+    --color-secondary:red;
     --color-third:rgb(71, 208, 71);
-    --color-fourth:pink;
-    --color-fifth: orange;
-    --color-sixth: rgb(185, 237, 95);
-    --color-seventh: rgba(248, 248, 248, 0.941);
-    --color-eighth: rgba(196, 196, 196, 0.941);
+    --color-fourth: rgba(248, 248, 248, 0.941);
+    --color-fifth: rgba(196, 196, 196, 0.941);
 }
 
 header{
@@ -40,10 +37,10 @@ button{
 }
 
 .container{
-    border-top: 3rem solid var(--color-seventh);
-    border-right: 8rem solid var(--color-seventh);
-    border-left: 8rem solid var(--color-seventh);
-    border-bottom: 4rem solid var(--color-seventh);
+    border-top: 3rem solid var(--color-fourth);
+    border-right: 16rem solid var(--color-fourth);
+    border-left: 16rem solid var(--color-fourth);
+    border-bottom: 4rem solid var(--color-fourth);
     background-color: white;
     
 }
@@ -62,16 +59,15 @@ button{
 
 .button2{
     background-color: white;
-    color: var(--color-eighth);
-    border: 2px solid var(--color-eighth);;
+    color: var(--color-fifth);
+    border: 2px solid var(--color-fifth);;
     padding: 0.5rem;
     border-radius: 9px;
     
 }
 
 hr {
-    border: 1;
-    color: var(--color-seventh)
+    border:solid var(--color-fourth) 1px
     }
 
 .under_container2{
@@ -80,6 +76,7 @@ hr {
 }
 h2{
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .indicator{
@@ -107,8 +104,8 @@ ul {
 
 .cross {
     background-color: white;
-    color: red;
-    border: 1px solid red;;
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);;
     border-radius: 50%;
     padding: 2px;
     margin: 5px;
